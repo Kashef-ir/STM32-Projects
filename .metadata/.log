@@ -1,0 +1,39 @@
+!SESSION 2026-10-22 21:00:14.098 -----------------------------------------------
+eclipse.buildId=Version 2.2.0
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /home/kashef/Practice/STM32-Projects
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-10-22 21:00:16.748
+!MESSAGE Log4j2 initialized with config file /home/kashef/Practice/STM32-Projects/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-10-22 21:00:18.843
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-10-22 21:00:56.174
+!MESSAGE Indexed '01-GPIO-LED-Button' (17 sources, 104 headers) in 1.24 sec: 7,012 declarations; 25,061 references; 2 unresolved inclusions; 36 syntax errors; 186 unresolved names (0.58%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-10-22 21:01:26.673
+!MESSAGE Indexed '02-BluePill_LCD16x2' (17 sources, 104 headers) in 0.683 sec: 7,011 declarations; 24,979 references; 2 unresolved inclusions; 36 syntax errors; 186 unresolved names (0.58%)
+!SESSION 2026-10-22 21:02:19.352 -----------------------------------------------
+eclipse.buildId=Version 2.2.0
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /home/kashef/Practice/STM32-Projects
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-10-22 21:02:21.695
+!MESSAGE Log4j2 initialized with config file /home/kashef/Practice/STM32-Projects/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-10-22 21:02:24.321
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2026-10-22 21:03:35.632
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-10-22 21:04:14.676
+!MESSAGE Indexed '02-BluePill_LCD16x2' (17 sources, 104 headers) in 0.892 sec: 7,037 declarations; 25,140 references; 2 unresolved inclusions; 36 syntax errors; 186 unresolved names (0.57%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-10-22 21:04:17.786
+!MESSAGE Indexed '02-BluePill_LCD16x2' (17 sources, 104 headers) in 0.649 sec: 7,037 declarations; 25,140 references; 2 unresolved inclusions; 36 syntax errors; 186 unresolved names (0.57%)

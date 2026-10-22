@@ -1,0 +1,10 @@
+21:05:45 **** Incremental Build of configuration Debug for project 02-BluePill_LCD16x2 ****
+make -j20 all 
+arm-none-eabi-size  02-BluePill_LCD16x2.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5020	     12	   1572	   6604	   19cc	02-BluePill_LCD16x2.elf
+Finished building: default.size.stdout
+ 
+
+21:05:45 Build Finished. 0 errors, 0 warnings. (took 73ms)
+
