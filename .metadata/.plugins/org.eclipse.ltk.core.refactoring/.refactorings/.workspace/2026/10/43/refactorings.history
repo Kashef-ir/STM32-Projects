@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;02-BluePill_LCD16x2&apos; to &apos;02-BluePill-LCD16x2&apos;" description="Rename resource &apos;02-BluePill_LCD16x2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/02-BluePill_LCD16x2" name="02-BluePill-LCD16x2" stamp="1792690692847" updateReferences="true"/>&#x0A;<refactoring comment="Delete resource &apos;02-BluePill-LCD16x2&apos;" deleteContents="false" description="Delete resource &apos;02-BluePill-LCD16x2&apos;" element1="/02-BluePill-LCD16x2" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1792691012374"/>
+</session>

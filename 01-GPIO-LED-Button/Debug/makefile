@@ -60,8 +60,8 @@ all: main-build
 main-build: 01-GPIO-LED-Button.elf secondary-outputs
 
 # Tool invocations
-01-GPIO-LED-Button.elf 01-GPIO-LED-Button.map: $(OBJS) $(USER_OBJS) /home/kashef/Practice/01-GPIO-LED-Button/STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "01-GPIO-LED-Button.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"/home/kashef/Practice/01-GPIO-LED-Button/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="01-GPIO-LED-Button.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+01-GPIO-LED-Button.elf 01-GPIO-LED-Button.map: $(OBJS) $(USER_OBJS) /home/kashef/Practice/STM32-Projects/01-GPIO-LED-Button/STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "01-GPIO-LED-Button.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"/home/kashef/Practice/STM32-Projects/01-GPIO-LED-Button/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="01-GPIO-LED-Button.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

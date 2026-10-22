@@ -1,0 +1,16 @@
+21:18:45 **** Incremental Build of configuration Debug for project 02-BluePill-LCD16x2 ****
+make -j20 all 
+arm-none-eabi-gcc -o "02-BluePill-LCD16x2.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/kashef/Practice/STM32-Projects/02-BluePill-LCD16x2/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="02-BluePill-LCD16x2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 02-BluePill-LCD16x2.elf
+ 
+arm-none-eabi-size  02-BluePill-LCD16x2.elf 
+arm-none-eabi-objdump -h -S 02-BluePill-LCD16x2.elf  > "02-BluePill-LCD16x2.list"
+   text	   data	    bss	    dec	    hex	filename
+   5020	     12	   1572	   6604	   19cc	02-BluePill-LCD16x2.elf
+Finished building: default.size.stdout
+ 
+Finished building: 02-BluePill-LCD16x2.list
+ 
+
+21:18:45 Build Finished. 0 errors, 0 warnings. (took 123ms)
+
