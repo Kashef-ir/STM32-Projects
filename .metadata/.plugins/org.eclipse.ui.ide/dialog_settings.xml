@@ -9,12 +9,13 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/home/kashef/Practice/STM32-Projects/02-BluePill-LCD16x2"/>
 			<item value="/home/kashef/Practice/STM32-Projects/02-BluePill_LCD16x2"/>
 			<item value="/home/kashef/Practice/STM32-Projects/01-GPIO-LED-Button"/>
 		</list>
 		<section name="STSmartImportWizard.dialogBounds">
 			<item key="DIALOG_X_ORIGIN" value="654"/>
-			<item key="DIALOG_Y_ORIGIN" value="166"/>
+			<item key="DIALOG_Y_ORIGIN" value="173"/>
 			<item key="DIALOG_WIDTH" value="904"/>
 			<item key="DIALOG_HEIGHT" value="678"/>
 			<item key="DIALOG_FONT_NAME" value="1|Adwaita Sans|11.0|0|GTK|1|"/>
